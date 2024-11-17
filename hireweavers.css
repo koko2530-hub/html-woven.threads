@@ -1,0 +1,486 @@
+body {
+    width: 100%;
+    height: 850px;
+    background-color: #ECE3E0;
+    font-family: Inter, sans-serif;
+}
+
+.Rectangle1215 {
+    width: 240px;
+    height: 1000px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #30231F;
+    z-index: 1; /* Lower z-index to place it behind the headings */
+}
+
+.heading, .Menu, .Homepage, .Tools, .HireWeavers, .Products, .Marketplace, .Community,.Account,.Profile,.Helpcenter,.Logout {
+    position: fixed;
+    color: rgba(243, 235, 233, 0.75);
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 550;
+    z-index: 10; /* Higher z-index to ensure headings are above the rectangle */
+}
+.heading{
+    top: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+/* Position each heading */
+.Menu {
+    font-size: 20px;
+    top: 100px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+}
+
+.Homepage {
+    top: 135px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.Tools {
+    
+    top: 170px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.HireWeavers {
+    background-color: #160d0a;
+    padding-left: 35px;
+    padding-right: 96px;
+    top: 205px;
+    left: 0px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Products {
+    top: 240px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Marketplace {
+    top: 275px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Community {
+    top: 310px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Account {
+    font-size: 20px;
+    top: 345px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+
+}
+
+.Profile {
+    top: 380px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Helpcenter {
+    top: 415px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Logout {
+    top: 450px;
+    left: 35px;
+    color: rgb(136, 13, 13);
+    font-weight: 400;
+    font-size: 18px
+
+}
+.group-2 {
+    position: absolute;
+    width: 802px;
+    height: 34px;
+    top: 48px;
+    left: 320px;
+    }
+.hello-mahesh-tools {
+    position: absolute;
+    margin-top: 0.5px ;
+    /* top: 0;
+    left: 0; */
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+.span {
+    font-weight: 500;
+    color: #000000;
+    }
+
+.text-wrapper-28 {
+    font-family: "Inter-Regular", Helvetica;
+    color: #474040;
+    font-size: 12px;
+    }
+.group-wrapper {
+    position: absolute;
+    width: 479px;
+    height: 34px;
+    top: 0;
+    left: 321px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #3d3330;
+    }
+.group-3 {
+    position: relative;
+    width: 115px;
+    height: 18px;
+    top: 7px;
+    left: 16px;
+    }
+.text-wrapper-29 {
+    position: absolute;
+    top: 0;
+    left: 33px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #3d3330;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+.image-15{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+
+
+.section-title {
+    position: absolute;
+    top: 135px;
+    left: 320px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #2a1d19;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.Weaversapplication{
+    position: absolute;
+    top: 310px;
+    left: 320px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #2a1d19;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap
+
+}
+.sub-text{
+    position: absolute;
+    top: 180px;
+    left: 320px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #2a1d19;
+    font-size: 15px
+}
+
+.filters {
+    position: absolute;
+    top: 250px;
+    left: 320px;
+    display: flex;
+    gap: 15px;
+}
+
+.filter-dropdown {
+    position: relative;
+    background: #F2E8E8;
+    border: 1px solid #351717;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.filter-btn {
+    background: transparent;
+    border: none;
+    color: #271C19;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+.filter-dropdown select {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #351717;
+    border-radius: 5px;
+    background: #fff;
+    color: #271C19;
+    display: none;
+    z-index: 1;
+}
+
+.filter-dropdown:hover select {
+    display: block;
+}
+
+.filter-dropdown select option {
+    padding: 10px;
+    color: #271C19;
+}
+
+
+/* Profile Container */
+.profile-container {
+    position: absolute;
+    top: 350px; /* Distance from top */
+    left: 0px; /* Distance from left */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between each card */
+    background-color: #ECE3E0;
+    padding: 20px;
+}
+
+/* Profile Card Styling */
+.profile-card {
+    width: 250px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+/* Profile Details */
+.profile-details .profile-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #533F39;
+    margin-bottom: 5px;
+}
+
+.profile-details .profile-info {
+    font-size: 14px;
+    color: #533F39;
+    margin: 2px 0;
+}
+
+/* Action Button */
+.action-button {
+    width: 100px;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    background-color: #533F39;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #3d2e2a;
+}
+.Shortlistedapplications{
+    position: absolute;
+    top: 670px;
+    left: 320px;
+    z-index: 1;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #2a1d19;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap
+    
+}
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    width: 300px;
+}
+
+.modal-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-action-btn {
+    background-color: #523e38;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Application Cards Container */
+.application-cards {
+    position: absolute;
+    top: 350px; /* Distance from top */
+    left: 300px; /* Distance from left */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between each card */
+    background-color: #ECE3E0;
+    padding: 20px;
+}
+
+/* Application Card Styling */
+.application-card {
+    width: 250px;
+    background: white;
+
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    font-family: Inter, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Applicant Photo Styling */
+.applicant-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+/* Applicant Information */
+.applicant-info .name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #533F39;
+    margin-bottom: 5px;
+}
+
+.applicant-info .detail {
+    font-size: 14px;
+    color: #533F39;
+    margin: 2px 0;
+}
+
+/* Action Buttons */
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.deny-btn, .shortlist-btn {
+    width: 100px;
+    padding: 8px;
+    font-size: 14px;
+    color: #523e38;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #D3B3A5;
+    background-color: #F4E4E1;
+    transition: background-color 0.3s;
+}
+
+.deny-btn:hover {
+    background-color: #E8CBC6;
+}
+
+.shortlist-btn:hover {
+    background-color: #D8B9B2;
+}
+

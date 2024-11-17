@@ -1,0 +1,318 @@
+.Rectangle1215 {
+    width: 240px;
+    height: 1100px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #30231F;
+    z-index: 1; /* Lower z-index to place it behind the headings */
+}
+
+.heading, .Menu, .Homepage, .Tools, .HireWeavers, .Products, .Marketplace, .Community,.Account,.Profile,.Helpcenter,.Logout {
+    position: fixed;
+    color: rgba(243, 235, 233, 0.75);
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 550;
+    z-index: 10; /* Higher z-index to ensure headings are above the rectangle */
+}
+.heading{
+    top: 20px;
+    left: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+/* Position each heading */
+.Menu {
+    font-size: 20px;
+    top: 100px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+}
+
+.Homepage {
+    top: 135px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Tools {
+    top: 170px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.HireWeavers {
+    top: 205px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Products {
+    background-color: #160d0a;
+    padding-left: 35px;
+    padding-right: 133px;
+    top: 240px;
+    left: 0px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Marketplace {
+    top: 275px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Community {
+    top: 310px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Account {
+    font-size: 20px;
+    top: 345px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+
+}
+
+.Profile {
+    top: 380px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Helpcenter {
+    top: 415px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Logout {
+    top: 450px;
+    left: 35px;
+    color: rgb(136, 13, 13);
+    font-weight: 400;
+    font-size: 18px
+
+}
+#bestsellers{
+    padding-left: 15px;
+}
+.bestseller_title{
+    color: #2A1D19;
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 33px */
+}
+.product_description{
+    width: 235px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.mic_logo_image{
+    padding-top:10px;
+    padding-left:150px;
+}
+.type_here_text{
+    padding-left:16px;
+    color: #938580;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.product_name{
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 235px;
+    height: 37px;
+}
+.upload_product{
+    display: flex;
+    width: 250px;
+    height: 130px;
+    padding: 60px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8.571px;
+    border-radius: 10px;
+    border: 2px dashed #3E1D0E;
+    background: #FFFEFE;
+}
+#products{
+    padding-left:15px;
+}
+.products-title{
+    color: #2A1D19;
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+}
+.vl {
+    border-left: 1px solid #B7B3B3;
+    height: 80px;
+}
+.total_earning_stats{
+    padding-left:10px;
+    padding-top:25px;
+}
+.total_earnings_value_12{
+    color: #474141;
+    font-family: Inter, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.total_earnings_value{
+    padding-left:27px;
+    color: #474141;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.total_earnings_text{
+    padding-left:26px;
+    color: #474141;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.total_earnings{
+    display: flex;
+
+}
+.dollar_img{
+    height: 40px;
+    width: 40px;
+    padding-top:16px;
+    padding-left:35px;
+
+}
+.dashboard{
+    display: flex;
+    width: 960px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 4px 6.5px 0px rgba(0, 0, 0, 0.31);
+}
+#overview{
+    padding-left:15px;
+}
+.overview-text{
+    color: #2A1D19;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+body{
+    background-color: #ECE3E0;
+    padding-left: 100px;
+    font-family: Inter;
+
+}
+.name_title{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 16px;
+}
+.product_title{
+    color: #474141;
+    padding-left:16px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+body{
+  padding-top: 75px;
+  font-family: Inter, sans-serif;
+}
+
+.group-wrapper {
+    position: absolute;
+    width: 479px;
+    height: 34px;
+    top: 100px;
+    left: 600px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #3d3330;
+    }
+.group-3 {
+    display: flex;
+    position: relative;
+    width: 115px;
+    height: 18px;
+    top: 7px;
+    left: 16px;
+    }
+.text-wrapper-29 {
+    position: absolute;
+    top: 0;
+    left: 33px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    color: #3d3330;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+.image-15 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

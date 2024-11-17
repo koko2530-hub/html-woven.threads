@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heald Tool Modal</title>
+<style>
+    /* Basic styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    /* Modal background overlay */
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    /* Modal container */
+    .modal-content {
+        background-color: #f9f3f0;
+        padding: 20px;
+        width: 350px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        position: relative;
+    }
+
+    /* Close button */
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    /* Image styling */
+    .modal-content img {
+        width: 100%;
+        max-width: 150px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+
+    /* Text styling */
+    .modal-title {
+        font-size: 1.5em;
+        margin-bottom: 5px;
+    }
+
+    .modal-subtitle {
+        color: #888;
+        font-size: 0.9em;
+        margin-bottom: 15px;
+    }
+
+    .modal-description {
+        font-size: 0.95em;
+        color: #444;
+        margin-bottom: 15px;
+    }
+
+    .modal-price {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    /* Buttons styling */
+    .modal-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .modal-buttons button {
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 0.9em;
+    }
+
+    .buy-now-btn {
+        background-color: #f0f0f0;
+        color: #333;
+    }
+
+    .add-to-cart-btn {
+        background-color: #4a2b1c;
+        color: white;
+    }
+</style>
+</head>
+<body>
+
+<!-- Modal Overlay -->
+<div class="modal-overlay" id="modal">
+    <div class="modal-content">
+        <button class="close-btn" onclick="closeModal()">&times;</button>
+        <img src="image 155.png">
+        <h2 class="modal-title">Measuring MeasuringTape</h2>
+        <p class="modal-subtitle">Tool Suppliers</p>
+        <p class="modal-description">The measuring tape is a flexible ruler used to measure distance or size, commonly made from cloth, plastic, or metal. It's essential in various fields like tailoring, construction, and DIY projects for precise measurements.</p>
+        <p class="modal-price">₹ 130</p>
+        <div class="modal-buttons">
+            <button class="buy-now-btn">Buy Now</button>
+            <button class="add-to-cart-btn">Add To Cart</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // JavaScript to close the modal
+    function closeModal() {
+        document.getElementById('modal').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>

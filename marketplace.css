@@ -1,0 +1,232 @@
+body {
+    font-family: Inter, sans-serif;
+    
+}
+
+.item2{
+    color: #343434;
+    font-family: Inter, sans-serif;
+    font-size: 15.455px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 23.183px */
+}
+.item1{
+    align-self: stretch;
+    color: #343434;
+    font-family:  Inter, sans-serif;
+    font-size: 17.516px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 26.274px */
+}
+.no-bullets {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.no-bullets .item1 {
+    font-size: 14px; 
+    color: #333; 
+    padding: 5px 0; 
+}
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family:  Inter, sans-serif;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        /* Optional: Hover effect on rows */
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        /* Optional: Style the header row */
+        
+.order-table{
+    width: 1120px;
+    height: 849.016px;
+    flex-shrink: 0;
+    border-radius: 13.395px;
+    border: 1px solid #463029;
+    background: #ECE3E0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background-color: #ECE3E0;
+    padding-left: 100px;
+    font-family: Inter, sans-serif;
+
+}
+.group-3 {
+    display: flex;
+    position: relative;
+    width: 115px;
+    height: 18px;
+    top: 7px;
+    left: 16px;
+    }
+.group-wrapper {
+    position: absolute;
+    width: 479px;
+    height: 34px;
+    top: 22px;
+    left: 500px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #3d3330;
+    }
+.product_title{
+    color: #474141;
+    padding-left:16px;
+    font-family:  Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.name_title{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 16px;
+}
+.Rectangle1215 {
+    width: 240px;
+    height: 1370px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #30231F;
+    z-index: 1; /* Lower z-index to place it behind the headings */
+}
+
+.heading, .Menu, .Homepage, .Tools, .HireWeavers, .Products, .Marketplace, .Community,.Account,.Profile,.Helpcenter,.Logout {
+    position: fixed;
+    color: rgba(243, 235, 233, 0.75);
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 550;
+    z-index: 10; /* Higher z-index to ensure headings are above the rectangle */
+}
+.heading{
+    top: 20px;
+    left: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+/* Position each heading */
+.Menu {
+    font-size: 20px;
+    top: 100px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+}
+
+.Homepage {
+    top: 135px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Tools {
+    top: 170px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.HireWeavers {
+    top: 205px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Products {
+    top: 240px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Marketplace {
+    background-color: #160d0a;
+    padding-left: 35px;
+    padding-right: 106px;
+    top: 275px;
+    left: 0px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Community {
+    top: 310px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Account {
+    font-size: 20px;
+    top: 345px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+
+}
+
+.Profile {
+    top: 380px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Helpcenter {
+    top: 415px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Logout {
+    top: 450px;
+    left: 35px;
+    color: rgb(136, 13, 13);
+    font-weight: 400;
+    font-size: 18px;
+
+}

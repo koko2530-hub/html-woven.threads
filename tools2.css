@@ -1,0 +1,404 @@
+body {
+    width: 100%;
+    height: 850px;
+    background-color: #ECE3E0;
+}
+
+
+.tools-description4 p{
+    padding:0;
+    margin:0;
+}
+.tools-description4{
+    padding-top:100px;
+    margin-left:50px;
+}
+.tools-description3{
+    padding-top:100px;
+    margin-left:50px;
+}
+.tools-description2{
+    padding-left:14px;
+    padding-top:100px;
+}
+.recommendation-text{
+    color: #343434;
+    font-family: Inter, sans-serif; 
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left:25px;
+}
+.goingback{
+    position: absolute;
+    top: 100px;
+    left: 320px;
+    width: 18px;
+    height: 18px;
+}
+.recommendation{
+    margin-left:130px;
+    width: 250px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #351717;
+    margin-top: 46px;
+    display: flex; 
+    align-items: center; 
+    border-radius: 5px;
+    border: 1px solid #9D8080;
+    background: #CEC3C3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.tools-description{
+    padding-right: 50px;
+}
+
+.buy-text{
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 15px;
+    padding-top:4px;
+}
+.buy-btn{
+    margin-top:14px;
+    margin-left:25px;
+    width: 47.273px;
+    height: 20.367px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #463029;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.buy-btn2{
+    margin-top:14px;
+    margin-left:40px;
+    width: 47.273px;
+    height: 20.367px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #463029;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.buy-btn3{
+    margin-top:14px;
+    margin-left:4px;
+    width: 47.273px;
+    height: 20.367px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #463029;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.buy-btn4{
+    margin-top:14px;
+    margin-left:40px;
+    width: 47.273px;
+    height: 20.367px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #463029;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.tool-price{
+    color: #616161;
+    font-family:  Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.tool-remark{
+    color: #616161;
+    font-family: Inter, sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.tool-title{
+    color: #2A1D19;
+    font-family: Inter, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.tools-description p{
+    padding:0;
+    margin:0;
+}
+.tools-description2 p{
+    padding:0;
+    margin:0;
+}
+.tools-description3 p{
+    padding:0;
+    margin:0;
+}
+.new-releases-text{
+    color: #343434;
+    font-family: Inter, sans-serif; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left:5px;
+}
+.bestseller-text{
+    color: #343434;
+    font-family: Inter, sans-serif; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left:25px;
+}
+.top-rated-text {
+    color: #343434;
+    font-family: Inter, sans-serif; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 0;
+    margin: 0; 
+    padding-top:7px;
+    padding-left:4px;
+}
+
+.top-rated {
+    width: 148px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #351717;
+    background: #F2E8E8;
+    margin-left: 15px;
+    margin-top: 46px;
+    display: flex; 
+    align-items: center; 
+}
+
+.measuring-tools-title{
+    color: #2D201C;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left:5px;
+}
+
+
+body{
+    background-color: #ECE3E0;
+    padding-left: 100px;
+
+}
+.group-3 {
+    display: flex;
+    position: relative;
+    width: 115px;
+    height: 18px;
+    top: 7px;
+    left: 16px;
+    }
+.group-wrapper {
+    position: absolute;
+    width: 479px;
+    height: 34px;
+    top: 22px;
+    left: 500px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #3d3330;
+    }
+.product_title{
+    color: #474141;
+    padding-left:16px;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.name_title{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family:  Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 16px;
+}
+.Rectangle1215 {
+    width: 240px;
+    height: 850px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #30231F;
+    z-index: 1; /* Lower z-index to place it behind the headings */
+}
+
+.heading, .Menu, .Homepage, .Tools, .HireWeavers, .Products, .Marketplace, .Community,.Account,.Profile,.Helpcenter,.Logout {
+    position: fixed;
+    color: rgba(243, 235, 233, 0.75);
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 550;
+    z-index: 10; /* Higher z-index to ensure headings are above the rectangle */
+}
+.heading{
+    top: 20px;
+    left: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Position each heading */
+.Menu {
+    font-size: 20px;
+    top: 100px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+}
+
+.Homepage {
+    top: 135px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Tools {
+    background-color: #160d0a;
+    padding-left: 35px;
+    padding-right: 160px;
+    top: 170px;
+    left: 0px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.HireWeavers {
+    top: 205px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Products {
+    top: 240px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Marketplace {
+    top: 275px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Community {
+    top: 310px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Account {
+    font-size: 20px;
+    top: 345px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+
+}
+
+.Profile {
+    top: 380px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Helpcenter {
+    top: 415px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Logout {
+    top: 450px;
+    left: 35px;
+    color: rgb(136, 13, 13);
+    font-weight: 400;
+    font-size: 18px
+
+}
+body{
+    font-family:Inter, sans-serif ;
+}
+.image-81{
+    width: 130.508px;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

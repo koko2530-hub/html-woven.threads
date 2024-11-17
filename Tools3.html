@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools 1</title>
+    <link rel="stylesheet" href="tools3.css">
+</head>
+<style>
+    /* Modal Overlay Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #ff0000;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #463029;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #463029;
+}
+
+</style>
+<body>
+<div style="display: flex;">
+    <div>
+        <h1 class="heading">Woven Threads</h1>
+        <div class="Rectangle1215"></div>
+        <h1 class="Menu">Menu</h1>
+        <h1 class="Homepage"><a href="index.html">Homepage</a></h1>
+        <h1 class="Tools"><a href="Tools1.html">Tools</a></h1>
+        <h1 class="HireWeavers"><a href="Hire Weavers.html">HireWeavers</a></h1>
+        <h1 class="Products"><a href="products.html">Products</a></h1>
+        <h1 class="Marketplace"><a href="marketplace.html">Marketplace</a></h1>
+        <h1 class="Community"><a href="community.html">Community</a></h1>
+        <h1 class="Account">Account</h1>
+        <h1 class="Profile"><a href="profile.html">Profile</a></h1>
+        <h1 class="Helpcenter"><a href="Helpcenter.html">Helpcenter</a></h1>
+        <h1 class="Logout"><a href="login.html">Log out</a></h1>
+
+    </div>
+    <a href="Tools1.html">
+        <img src="images/93634.png" alt="going back" class="goingback">
+    </a>
+
+    <div style="padding-left:200px;">
+        <div id="first_div" style="display:flex;">
+            <div>
+                <h1 class="name_title">Hello , Mahesh</h1>
+                <h1 class="product_title">Your Profile</h1>
+            </div>
+            <div class="group-wrapper">
+                <div class="group-3">
+                    <div>                
+                        <img class="image-15" src="images/image 72.png" />
+                    </div>
+                    <div class="text-wrapper-29">Search here</div>
+                </div>
+            </div>
+        </div>
+
+        <div style="display:flex; margin-top:50px;">
+            <div>
+                <img style="padding-top:17px; padding-left:15px;" src="img/measuring_icon.png"> 
+            </div>
+            <div>
+                <h1 class="measuring-tools-title">Measuring Tools</h1>
+            </div>
+        </div>
+
+        <div style="display: flex;"> 
+            <div class="top-rated">
+                <div style="display: flex;">
+                    <div>
+                        <img style="padding:4px;" src="img/star_image.png">
+                    </div>
+                    <div class="padding-bottom:30px;">
+                        <h1  class="top-rated-text">Top Rated</h1>
+                    </div>
+                    <div style="padding-top: 5px;">
+                        <img style="padding-left: 40px;" src="img/dropdownicon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="top-rated">
+                <div style="display: flex;">
+                    <div class="padding-bottom:30px;">
+                        <h1  class="bestseller-text">Best Seller</h1>
+                    </div>
+                    <div style="padding-top: 5px;">
+                        <img style="padding-left: 40px;" src="img/dropdownicon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="top-rated">
+                <div style="display: flex;">
+                    <div class="padding-bottom:30px;">
+                        <h1  class="new-releases-text">New Releases</h1>
+                    </div>
+                    <div style="padding-top: 5px;">
+                        <img style="padding-left: 35px;" src="img/dropdownicon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="top-rated">
+                <div style="display: flex;">
+                    <div class="padding-bottom:30px;">
+                        <h1  class="bestseller-text">Sale</h1>
+                    </div>
+                    <div style="padding-top: 5px;">
+                        <img style="padding-left: 80px;" src="img/dropdownicon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="recommendation">
+                <div style="display: flex;">
+                    <div class="padding-bottom:30px;">
+                        <h1  class="recommendation-text">Sort by: Recommended</h1>
+                    </div>
+                    <div style="padding-top: 5px;">
+                        <img style="padding-left: 80px;" src="img/dropdownicon.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="display:flex ;margin-top:70px; padding-left:15px; justify-content: space-between;">
+            <div class="tools-description" >
+                <div>
+                    <div>
+                        <div>
+                            <img src="img/tape.png">
+                        </div>
+                        <div style="display: flex;">
+                            <div>
+                                <p class="tool-title">Mesuring Tape</p>
+                                <p class="tool-remark">Total Suppliers</p>
+                                <p class="tool-price">₹ 200</p>
+                            </div>
+                            <div>
+                                <div class="rectoa">
+                                    <div class="section-button" id="joinBtn1">
+                                        buy
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+
+
+            </div>
+            <div class="tools-description" >
+                <div>
+                    <div>
+                        <div>
+                            <img src="img/weftgauge.png">
+                        </div>
+                        <div style="display: flex;">
+                            <div>
+                                <p class="tool-title">Weft Gauge</p>
+                                <p class="tool-remark">Total Suppliers</p>
+                                <p class="tool-price">₹ 200</p>
+                            </div>
+                            <div>
+                                <div class="buy-btn">
+                                    <h1 class="buy-text">Buy</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+
+
+            </div>
+            <div class="tools-description" >
+                <div>
+                    <div>
+                        <div>
+                            <img src="img/wrap_counter.png">
+                        </div>
+                        <div style="display: flex;">
+                            <div>
+                                <p class="tool-title">Wrap Counter</p>
+                                <p class="tool-remark">Total Suppliers</p>
+                                <p class="tool-price">₹ 200</p>
+                            </div>
+                            <div>
+                                <div class="buy-btn">
+                                    <h1 class="buy-text">Buy</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+
+
+            </div>
+            <div class="tools-description" >
+                <div>
+                    <div>
+                        <div>
+                            <img src="img/pick_glass.png">
+                        </div>
+                        <div style="display: flex;">
+                            <div>
+                                <p class="tool-title">Pick Glass</p>
+                                <p class="tool-remark">Total Suppliers</p>
+                                <p class="tool-price">₹ 200</p>
+                            </div>
+                            <div>
+                                <div class="buy-btn">
+                                    <h1 class="buy-text">Buy</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+
+
+            </div>
+            <div class="tools-description" >
+                <div>
+                    <div>
+                        <div>
+                            <img src="img/ThreadCounter.png">
+                        </div>
+                        <div style="display: flex;">
+                            <div>
+                                <p class="tool-title">Thread Counter</p>
+                                <p class="tool-remark">Total Suppliers</p>
+                                <p class="tool-price">₹ 200</p>
+                            </div>
+                            <div>
+                                <div class="buy-btn">
+                                    <h1 class="buy-text">Buy</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+
+
+            </div>
+            <div class="tools-description" >
+                <div>
+                    <div>
+                        <div>
+                            <img src="img/Callipers.png">
+                        </div>
+                        <div style="display: flex;">
+                            <div>
+                                <p class="tool-title">Callipers</p>
+                                <p class="tool-remark">Total Suppliers</p>
+                                <p class="tool-price">₹ 200</p>
+                            </div>
+                            <div>
+                                <div class="buy-btn">
+                                    <h1 class="buy-text">Buy</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+            
+                </div>
+
+
+            </div>
+        </div>
+        <div style="display: flex;">
+            <div>            
+                <div class="tools-description2" >
+                    <div>
+                        <div>
+                            <div>
+                                <img src="img/yardstick.png">
+                            </div>
+                            <div style="display: flex;">
+                                <div>
+                                    <p class="tool-title">YardStick</p>
+                                    <p class="tool-remark">Total Suppliers</p>
+                                    <p class="tool-price">₹ 200</p>
+                                </div>
+                                <div>
+                                    <div class="buy-btn2">
+                                        <h1 class="buy-text">Buy</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="tools-description3" >
+                    <div>
+                        <div>
+                            <div>
+                                <img src="img/micrometer.png">
+                            </div>
+                            <div style="display: flex;">
+                                <div>
+                                    <p class="tool-title">Micrometer</p>
+                                    <p class="tool-remark">Total Suppliers</p>
+                                    <p class="tool-price">₹ 200</p>
+                                </div>
+                                <div>
+                                    <div class="buy-btn2">
+                                        <h1 class="buy-text">Buy</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="tools-description3" >
+                    <div>
+                        <div>
+                            <div>
+                                <img src="img/fabric_weight_scale.png">
+                            </div>
+                            <div style="display: flex;">
+                                <div>
+                                    <p class="tool-title">Fabric Weight Scale</p>
+                                    <p class="tool-remark">Total Suppliers</p>
+                                    <p class="tool-price">₹ 200</p>
+                                </div>
+                                <div>
+                                    <div class="buy-btn3">
+                                        <h1 class="buy-text">Buy</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="tools-description4" >
+                    <div>
+                        <div>
+                            <div>
+                                <img src="img/Scale.png">
+                            </div>
+                            <div style="display: flex;">
+                                <div>
+                                    <p class="tool-title">Scale</p>
+                                    <p class="tool-remark">Total Suppliers</p>
+                                    <p class="tool-price">₹ 200</p>
+                                </div>
+                                <div>
+                                    <div class="buy-btn4">
+                                        <h1 class="buy-text">Buy</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    
+
+    </div>
+</div>
+<!-- Modal Overlay -->
+<div id="modalOverlay" class="modal-overlay">
+    <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <img class="imgage" src="images/image 155.png">
+        <h2>MeasuringTape</h2>
+        <h3>Tool Suppliers</h3>
+        
+        <p>The measuring tape is a flexible ruler used to measure distance or size, commonly made from cloth, plastic, or metal. It's essential in various fields like tailoring, construction, and DIY projects for precise measurements.</p>
+        <button class="btn">Buy Now</button>
+    </div>
+</div>
+
+<script src="tools.js"></script>
+
+ 
+</body>
+</html>

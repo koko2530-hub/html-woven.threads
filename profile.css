@@ -1,0 +1,368 @@
+.Rectangle1215 {
+    width: 240px;
+    height: 1370px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #30231F;
+    z-index: 1; /* Lower z-index to place it behind the headings */
+}
+
+.heading, .Menu, .Homepage, .Tools, .HireWeavers, .Products, .Marketplace, .Community,.Account,.Profile,.Helpcenter,.Logout {
+    position: fixed;
+    color: rgba(243, 235, 233, 0.75);
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 550;
+    z-index: 10; /* Higher z-index to ensure headings are above the rectangle */
+}
+.heading{
+    top: 20px;
+    left: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+/* Position each heading */
+.Menu {
+    font-size: 20px;
+    top: 100px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+}
+
+.Homepage {
+    top: 135px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Tools {
+   
+    top: 170px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.HireWeavers {
+    top: 205px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Products {
+    top: 240px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Marketplace {
+    top: 275px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Community {
+    top: 310px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Account {
+    font-size: 20px;
+    top: 345px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.Profile {
+    background-color: #160d0a;
+    padding-left: 35px;
+    padding-right: 152px;
+    top: 380px;
+    left: 0px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Helpcenter {
+    top: 415px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Logout {
+    top: 450px;
+    left: 35px;
+    color: rgb(136, 13, 13);
+    font-weight: 400;
+    font-size: 18px
+
+}
+.emergency-contact p{
+    margin: 7px;
+    padding: 100;
+}
+.primary-contact-value{
+    padding-right:25px;
+    color: #30231F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.primary-contact-text{
+    padding-top:5px;
+    padding-left:25px;
+    color: #30231F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.emergency-contact-text{
+    padding-left:20px;
+    color: #30231F;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.emergency-contact{
+    margin-left:50px;
+    margin-top:25px;
+    width: 600px;
+    height: 243px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#bank-information p {
+    margin: 7px;
+    padding: 100;
+}
+.bank-name-value{
+    color: #30231F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right:25px;
+}
+.bank-name-text{
+    color: #30231F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left:25px;
+    padding-top:5px;   
+}
+.bank-info-edit-btn{
+    padding:20px;
+}
+.bank-info-text{
+    padding-left:25px;
+    padding-top:10px;
+    color: #30231F;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#bank-information{
+    margin-top:25px;
+    width: 480px;
+    height: 243px;
+    flex-shrink: 0; 
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.business-information p {
+    margin: 15px;
+    padding: 100;
+}
+.company-name-value{
+    color: #30231F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 25px;
+}
+.company-name-text{
+    color: #30231F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 25px;
+    padding-top:5px;
+}
+.business-information-text{
+    padding-left:25px;
+    color: #30231F;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.business-information{
+    margin-left:50px;
+    width: 600px;
+    height: 500px;
+    background: #FFF;  
+     
+}
+.phone-value{
+    color: #30231F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 20px;
+}
+.phone-text{
+    color: #30231F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 25px;
+    padding-top:3px;
+}
+#customer-info-extended{
+    width: 480px;
+    height:400px;
+    background: #FFF;
+}
+.joining-date{
+    padding-left:25px;
+    color: #30231F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.business-id{
+    padding-left:25px;
+    color: #30231F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#customer-info{
+    width: 480px;
+    height: 105px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #706666;
+    background: #FFF;
+}
+.profile_title{
+    color: #2A1D19;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+body{
+    background-color: #ECE3E0;
+    padding-left: 100px;
+
+}
+.text-wrapper-29 {
+    position: absolute;
+    top: 0;
+    left: 33px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #3d3330;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+.image-15 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.group-3 {
+    display: flex;
+    position: relative;
+    width: 115px;
+    height: 18px;
+    top: 7px;
+    left: 16px;
+    }
+.group-wrapper {
+    position: absolute;
+    width: 479px;
+    height: 34px;
+    top: 22px;
+    left: 500px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #3d3330;
+    }
+.product_title{
+    color: #474141;
+    padding-left:16px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.name_title{
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 16px;
+}

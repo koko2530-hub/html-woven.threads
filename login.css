@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0e6e0;
+    color: #30231F;
+    padding-top: 60px; /* Offset to ensure content doesn't go under the header */
+}
+
+.woventhreads{
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #30231F;
+    color: #f0e6e0;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.header-container h1 {
+    font-size:20px;
+    margin: 0;
+}
+
+header .header-container p {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: #f7ede8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.upload-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #b29a8a;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    color: #b29a8a;
+    margin-bottom: 10px;
+}
+
+.upload-box p:first-child {
+    font-size: 2em;
+}
+
+.signup-section {
+    width: 50%;
+}
+
+.signup-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #5b3e35;
+    text-align: center;
+}
+
+.signup-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-section input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.signup-section .checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: #5b3e35;
+}
+
+.signup-section .checkbox input {
+    margin-right: 10px;
+}
+
+.signup-section button {
+    padding: 10px;
+    font-size: 1em;
+    color: #f0e6e0;
+    background-color: #5b3e35;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signup-section button:hover {
+    background-color: #3e2b26;
+}

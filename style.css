@@ -1,0 +1,460 @@
+body {
+    width: 100%;
+    height: 850px;
+    background-color: #ECE3E0;
+}
+
+.Rectangle1215 {
+    width: 240px;
+    height: 920px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #30231F;
+    z-index: 1; /* Lower z-index to place it behind the headings */
+}
+
+.heading, .Menu, .Homepage, .Tools, .HireWeavers, .Products, .Marketplace, .Community,.Account,.Profile,.Helpcenter,.Logout {
+    position: fixed;
+    color: #DFDFDF;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 550;
+    z-index: 10; /* Higher z-index to ensure headings are above the rectangle */
+}
+.heading{
+    top: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+/* Position each heading */
+.Menu {
+    font-size: 20px;
+    top: 100px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+}
+
+.Homepage {
+    top: 135px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Tools {
+    
+    top: 170px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.HireWeavers {
+    top: 205px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Products {
+    top: 240px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Marketplace {
+    top: 275px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Community {
+    top: 310px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Account {
+    font-size: 20px;
+    top: 345px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 700;
+
+}
+
+.Profile {
+    top: 380px;
+    left: 35px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Helpcenter {
+    background-color: #160d0a;
+    padding-left: 35px;
+    padding-right: 118px;
+    top: 415px;
+    left: 0px;
+    color: #d4c8c4;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.Logout {
+    top: 450px;
+    left: 35px;
+    color: rgb(136, 13, 13);
+    font-weight: 400;
+    font-size: 18px
+
+}
+
+.NeedSomeHelp {
+    position: absolute;
+    top: 135px;
+    left: 320px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #2a1d19;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.Rectangle19404 {
+    width: 547px;
+    height: 49px;
+    left: 319px;
+    top: 181px;
+    position: absolute;
+    background: #ECE3E0;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    border: 1px solid #252525;
+}
+
+.TypeHere {
+    left: 329px;
+    top: 193px;
+    position: absolute;
+    color: #707070;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+}
+.Rectangle19405,
+.Rectangle19406,
+.Rectangle19407,
+.Rectangle19408,
+.Rectangle19409 {
+    position: absolute;
+    background: #FAFAFA;
+    box-shadow: 1px 3px 9.3px rgba(0, 0, 0, 0.38);
+    border-radius: 6px;
+}
+
+.Rectangle19405 {
+    width: 440px;
+    height: 263px;
+    left: 320px;
+    top: 259px;
+}
+
+.Rectangle19406 {
+    width: 640px;
+    height: 263px;
+    left: 800px;
+    top: 259px;
+}
+
+.Rectangle19407 {
+    width: 342px;
+    height: 263px;
+    left: 320px;
+    top: 564px;
+}
+
+.Rectangle19408 {
+    width: 338px;
+    height: 263px;
+    left: 702px;
+    top: 564px;
+}
+
+.Rectangle19409 {
+    width: 362px;
+    height: 263px;
+    left: 1080px;
+    top: 564px;
+}
+
+.Group456,
+.Group454,
+.Group459,
+.Group457,
+.Group458 {
+    position: absolute;
+}
+
+.Group456 {
+    width: 244px;
+    height: 145px;
+    left: 998px;
+    top: 318px;
+}
+
+.Image165 {
+    width: 61px;
+    height: 61px;
+    left: 91px;
+    top: 0px;
+    position: absolute;
+}
+
+.OrderMangement {
+    left: 26px;
+    top: 69px;
+    position: absolute;
+    color: #30231F;
+    font-size: 22px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+.HowToProcessOrdersManagingShippingAndDelivery {
+    left: 0px;
+    top: 107px;
+    position: absolute;
+    text-align: center;
+    color: #494747;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+.Group454 {
+    width: 241px;
+    height: 143px;
+    left: 414px;
+    top: 319px;
+}
+
+.Image164 {
+    width: 84px;
+    height: 84px;
+    left: 78px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.83;
+}
+
+.GettingStarted {
+    left: 39px;
+    top: 85px;
+    position: absolute;
+    color: #30231F;
+    font-size: 22px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+.NewHereStartWithTheBasics {
+    left: 0px;
+    top: 124px;
+    position: absolute;
+    color: #494747;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+.Group459 {
+    width: 257px;
+    height: 158px;
+    left: 362px;
+    top: 616px;
+}
+
+.Image166 {
+    width: 69px;
+    height: 69px;
+    left: 94px;
+    top: 0px;
+    position: absolute;
+}
+
+.PaymentsAndInvoices {
+    left: 7px;
+    top: 66px;
+    position: absolute;
+    color: #30231F;
+    font-size: 22px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+.PaymentScheduleAndMethodsViewingAndDownloadingInvoices {
+    width: 257px;
+    left: 0px;
+    top: 101px;
+    position: absolute;
+    text-align: center;
+    color: #494747;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+.Group457 {
+    width: 287px;
+    height: 165px;
+    left: 727px;
+    top: 613px;
+}
+
+.Image167 {
+    width: 57px;
+    height: 57px;
+    left: 115px;
+    top: 0px;
+    position: absolute;
+}
+
+.MyAccount {
+    left: 80px;
+    top: 54px;
+    position: absolute;
+    color: #30231F;
+    font-size: 22px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+.HowToUpdatePersonalDetailsEmailPhoneAddressManagingAccountSecurityAndPassword {
+    width: 287px;
+    left: 0px;
+    top: 89px;
+    position: absolute;
+    text-align: center;
+    color: #494747;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+.Group458 {
+    width: 204px;
+    height: 125px;
+    left: 1159px;
+    top: 633px;
+}
+
+.Image168 {
+    width: 46px;
+    height: 46px;
+    left: 79px;
+    top: 0px;
+    position: absolute;
+}
+
+.Privacy {
+    left: 63px;
+    top: 52px;
+    position: absolute;
+    color: #30231F;
+    font-size: 22px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+.HowWeProtectYourDataManagingPrivacySettings {
+    left: 0px;
+    top: 87px;
+    position: absolute;
+    text-align: center;
+}
+.group-2 {
+    position: absolute;
+    width: 802px;
+    height: 34px;
+    top: 48px;
+    left: 320px;
+    }
+.hello-mahesh-tools {
+    position: absolute;
+    margin-top: 0.5px ;
+    /* top: 0;
+    left: 0; */
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+.span {
+    font-weight: 500;
+    color: #000000;
+    }
+
+.text-wrapper-28 {
+    font-family: "Inter-Regular", Helvetica;
+    color: #474040;
+    font-size: 12px;
+    }
+.group-wrapper {
+    position: absolute;
+    width: 479px;
+    height: 34px;
+    top: 0;
+    left: 321px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #3d3330;
+    }
+.group-3 {
+    position: relative;
+    width: 115px;
+    height: 18px;
+    top: 7px;
+    left: 16px;
+    }
+.text-wrapper-29 {
+    position: absolute;
+    top: 0;
+    left: 33px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #3d3330;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+.image-15 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
